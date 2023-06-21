@@ -75,7 +75,7 @@ defmodule LiveMap.MixProject do
   defp deps do
     [
       {:phoenix_live_view, ">= 0.17.5"},
-      {:jason, ">= 1.2"},
+      {:jason, ">= 1.2.0"},
 
       # Test/dev deps
       {:plug_cowboy, "~> 2.0", only: :test},
